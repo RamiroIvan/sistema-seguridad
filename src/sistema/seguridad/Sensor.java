@@ -9,10 +9,8 @@ public abstract class Sensor extends Sujeto {
     public Sensor(int lectura) {
         this.lectura = lectura;
     }
-    public float sensar(){
-//        Do something
-       return lectura;
-    }
+    
+    public abstract float sensar();
 
     public float getLectura() {
         return lectura;
